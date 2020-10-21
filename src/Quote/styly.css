@@ -1,0 +1,32 @@
+figure.quote {
+    background-color: #EEE;
+    font-size: 48px;
+    padding: 30px;
+    position: relative;
+}
+
+figure.quote::before {
+    content: '„';
+    font-size: 144px;
+    position: absolute;
+    bottom: -0.5ex;
+    left: -0.5ex;
+}
+
+figure.quote::after {
+    content: '“';
+    font-size: 144px;
+    position: absolute;
+    top: -0.7ex;
+    right: -0.5ex;
+}
+
+figcaption {
+    text-align: right;
+    font-style: italic;
+    font-size: 32px;
+}
+
+figcaption::before {
+    content: '— ';
+}
